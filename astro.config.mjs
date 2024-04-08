@@ -10,7 +10,8 @@ import { defineConfig } from "astro/config";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://astro-nomy.vercel.app",
+  site: "https://sengagehq.com",
+  base: "impondesk/sengagehq.com",
   integrations: [
     mdx({
       syntaxHighlight: "shiki",
