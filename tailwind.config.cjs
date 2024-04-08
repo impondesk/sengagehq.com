@@ -14,8 +14,8 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        sans: ["Inter", ...fontFamily.sans],
-        heading: ["CalSans Semibold", ...fontFamily.sans],
+        sans: ["Nunito", ...fontFamily.sans],
+        heading: ["Nunito Bold", "CalSans Semibold", ...fontFamily.sans],
       },
       height: {
         18: "4.5rem",
